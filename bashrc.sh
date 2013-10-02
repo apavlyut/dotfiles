@@ -1,5 +1,9 @@
-. ~/bin/dotfiles/colors.sh
-. ~/bin/dotfiles/prompt.sh
-. ~/bin/dotfiles/aliases.sh
-. ~/bin/dotfiles/git-completion.bash
-. ~/bin/dotfiles/config.sh
+DIR=`dirname $BASH_SOURCE`
+. $DIR/colors.sh
+. $DIR/aliases.sh
+. $DIR/git-completion.bash
+. $DIR/config.sh
+. $DIR/prompt.sh
+
+
+export PATH="$HOME/.bin:$PATH"
