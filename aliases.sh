@@ -15,4 +15,6 @@ alias hpd='git add .; git commit -m "pusher by heroku"; git push heroku master;'
 alias gmapd='git add .; git commit -m "pushed by auto-monkey"; git push gitolite monkey; cap monkey deploy;'
 alias gmapdm='git add .; git commit -m "pushed by auto-monkey"; git push gitolite monkey; cap monkey deploy:migrations;'
 
+alias fsdev='foreman start -f Procfile.dev'
+
 function cr() { cap remote "$@" ;}
