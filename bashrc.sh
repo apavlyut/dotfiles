@@ -7,3 +7,5 @@ DIR=`dirname $BASH_SOURCE`
 . $DIR/git-flow-completion.bash
 
 export PATH="$HOME/.bin:$PATH"
+
+eval "$(direnv hook $0)"
