@@ -1,5 +1,6 @@
 # Heroku git deploy
-alias hp='git add .; git commit -m "pushed by hp"; git push heroku master;'
+alias hp='git add .; git add -u; git commit -am "pushed by heroku"; git push heroku master;'
+
 alias hrm='heroku run rake db:migrate'
 
 # Change fucking mac address
