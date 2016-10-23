@@ -1,5 +1,5 @@
 # Heroku git deploy
-alias hp='git add .; git add -u; git commit -am "pushed by heroku"; git push heroku master;'
+alias hp='git add .; git add -u; git commit -am "qick fix and deploy"; git push heroku master;'
 
 alias hrm='heroku run rake db:migrate'
 
