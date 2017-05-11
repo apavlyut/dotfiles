@@ -9,3 +9,4 @@ DIR=`dirname $BASH_SOURCE`
 export PATH="$HOME/.bin:$PATH"
 
 eval "$(direnv hook $0)"
+eval "$(thefuck --alias)"
