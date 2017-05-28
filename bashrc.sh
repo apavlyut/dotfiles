@@ -6,6 +6,7 @@ DIR=`dirname $BASH_SOURCE`
 . $DIR/git-completion.bash
 . $DIR/git-flow-completion.bash
 
+export PATH="$(yarn global bin):$PATH"
 export PATH="$HOME/.bin:$PATH"
 
 eval "$(direnv hook $0)"
