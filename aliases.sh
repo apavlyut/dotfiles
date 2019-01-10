@@ -1,4 +1,4 @@
-# Heroku git deploy
+# Heroku git deploy #
 alias hp='git add .; git add -u; git commit -am "hotfix"; git push heroku master;'
 alias gp='git add .; git add -u; git commit -am "hotfix"; git push github master;'
 alias gpd='gp=; heroku logs -t'
