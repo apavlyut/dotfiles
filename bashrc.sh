@@ -10,4 +10,4 @@ export PATH="$(yarn global bin):$PATH"
 export PATH="$HOME/.bin:$PATH"
 
 eval "$(direnv hook $0)"
-eval "$(thefuck --alias)"
+# eval "$(thefuck --alias)"

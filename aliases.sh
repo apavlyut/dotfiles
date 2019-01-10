@@ -22,6 +22,7 @@ alias gmapd='git add .; git commit -m "pushed by auto-monkey"; git push gitolite
 alias gmapdm='git add .; git commit -m "pushed by auto-monkey"; git push gitolite monkey; cap monkey deploy:migrations;'
 
 alias fsdev='foreman start -f Procfile.dev'
+alias hl='heroku local -f Procfile.dev'
 
 alias smf='cd ~/code/factory/smpp; rsync -vr mcf.zalapu:~/smpp/ . --exclude=.git --exclude=*.log;'
 alias smp='cd ~/code/factory/smpp; rsync -vr . mcf.zalapu:~/smpp/ --exclude=.git --exclude=*.log;'
