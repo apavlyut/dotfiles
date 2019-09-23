@@ -27,6 +27,4 @@ alias hl='heroku local -f Procfile.dev'
 alias smf='cd ~/code/factory/smpp; rsync -vr mcf.zalapu:~/smpp/ . --exclude=.git --exclude=*.log;'
 alias smp='cd ~/code/factory/smpp; rsync -vr . mcf.zalapu:~/smpp/ --exclude=.git --exclude=*.log;'
 
-alias rnsm="react-native run-ios --simulator 'iPhone SE'"
-
 function cr() { cap remote "$@" ;}
