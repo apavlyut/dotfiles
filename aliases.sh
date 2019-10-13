@@ -28,3 +28,8 @@ alias smf='cd ~/code/factory/smpp; rsync -vr mcf.zalapu:~/smpp/ . --exclude=.git
 alias smp='cd ~/code/factory/smpp; rsync -vr . mcf.zalapu:~/smpp/ --exclude=.git --exclude=*.log;'
 
 function cr() { cap remote "$@" ;}
+
+
+alias rns8="react-native run-ios --simulator 'iPhone 8'" # cmd
+alias rns8p="react-native run-ios --simulator 'iPhone 8 Plus'"  # cmd
+alias rns11="react-native run-ios --simulator 'iPhone 11'" # cmd
