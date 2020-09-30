@@ -8,12 +8,20 @@ export PATH=$PATH:$ANDROID_SDK/tools
 export PATH=$PATH:$ANDROID_SDK/tools/bin
 export PATH=$PATH:$ANDROID_SDK/platform-tools
 
+export PATH=$PATH:$HOME/.flutterio/bin
+
 alias android-emulator='emulator @4.65_720p_Galaxy_Nexus_API_27'
+
+# export PATH="/usr/local/opt/openjdk/bin:$PATH"
+
+# echo JAVA_HOME
+
+export CPPFLAGS="-I/usr/local/opt/openjdk/include"
 
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 
-. $(brew --prefix asdf)/asdf.sh
-. $(brew --prefix asdf)/etc/bash_completion.d/asdf.bash
+# . $(brew --prefix asdf)/asdf.sh
+# . $(brew --prefix asdf)/etc/bash_completion.d/asdf.bash
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

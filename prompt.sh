@@ -6,11 +6,13 @@ NODE_PS="\[$GREEN\]\$(nvm current)\[$NO_COLOR\] "
 ELIXIR_V="asdf current elixir"
 
 cdel(){
-  if [[ $($ELIXIR_V) == *"please run"* ]]; then
+  echo 'aaaa'
+  if [[ $($ELIXIR_V) == *"version set"* ]]; then
     echo ''
   else
     $ELIXIR_V | cut -d '(' -f 1 | xargs
   fi
 }
 
-PS1="\n$NODE_PS$RUBY_PS\[$BLUE\]\$(cdel)\[$NO_COLOR\] $PS1"
+# PS1="\n$NODE_PS$RUBY_PS\[$BLUE\]\$(cdel)\[$NO_COLOR\] $PS1"
+PS1="\n$NODE_PS$RUBY_PS\[$BLUE\]\[$NO_COLOR\] $PS1"
